@@ -1,6 +1,8 @@
 # haproxy-static-binaries
 # https://buuoj.cn/challenges#Linux%20Labs
 
+<pre>
+
 
 root@out:/tmp# chmod  0777 haproxy
 
