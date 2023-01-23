@@ -2,7 +2,7 @@
 # https://buuoj.cn/challenges#Linux%20Labs
 
 <pre>
-
+https://github.com/qokelate/haproxy-static-binaries
 
 root@out:/tmp# chmod  0777 haproxy
 
