@@ -3,11 +3,15 @@
 
 
 root@out:/tmp# chmod  0777 haproxy
+
+
 root@out:/tmp# ./haproxy
 HAProxy version 2.7-dev1-89ed89-64 2022/07/01 - https://haproxy.org/
 Status: development branch - not safe for use in production.
 Known bugs: https://github.com/haproxy/haproxy/issues?q=is:issue+is:open
 Running on: Linux 4.19.221-0419221-generic #202112141049 SMP Tue Dec 14 11:54:51 UTC 2021 x86_64
+
+
 Usage : haproxy [-f <cfgfile|cfgdir>]* [ -vdVD ] [ -n <maxconn> ] [ -N <maxpconn> ]
         [ -p <pidfile> ] [ -m <max megs> ] [ -C <dir> ] [-- <cfgfile>*]
         -v displays version ; -vv shows known build options.
@@ -38,6 +42,11 @@ Usage : haproxy [-f <cfgfile|cfgdir>]* [ -vdVD ] [ -n <maxconn> ] [ -N <maxpconn
         -sf/-st [pid ]* finishes/terminates old pids.
         -x <unix_socket> get listening sockets from a unix socket
         -S <bind>[,<bind options>...] new master CLI
+
+
+
+
+
 
 root@out:/tmp# cat /etc/os-release 
 NAME="Ubuntu"
