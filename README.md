@@ -65,3 +65,6 @@ UBUNTU_CODENAME=xenial
 root@out:/tmp# 
 
 
+root@out:/tmp# uname  -a
+Linux out 4.19.221-0419221-generic #202112141049 SMP Tue Dec 14 11:54:51 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+root@out:/tmp# 
